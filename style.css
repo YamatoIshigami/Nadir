@@ -1,0 +1,85 @@
+body{
+    padding: 20px 10px 10px 20px;
+    background: url('img/photo4.png') 0 0/100% 100% fixed;
+  
+}
+
+.ok1{
+    max-width: 1600px;
+    margin: 0px auto;
+    height: 900px;
+}
+.ok11{
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 800px;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    left: 375px;
+    box-shadow: 0 0 20px #000;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.form h1{
+    margin: 30px 100px;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.input-form{
+    margin: 15px 40px;
+    text-align: center;
+}
+
+.input-form input{
+    padding: 10px;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.input-form input[type="submit"]{
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: #000;
+    transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+
+.form a{
+    display: block;
+    padding: 0 0 30px;
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.form a:hover{
+    color: #ffffff;
+}
